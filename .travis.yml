@@ -1,6 +1,6 @@
-language: ruby
-rvm:
-- 2.0.0
-- 1.9.3
-- jruby-19mode
-- rbx-2
+language: node_js
+node_js:
+ - "node"
+env:
+- MY_VAR=EverythingIsAwesome
+- NODE_ENV=TEST
